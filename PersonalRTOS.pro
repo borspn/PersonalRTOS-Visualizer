@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Mutex/mutex.cpp \
     Semaphore/semaphore.cpp \
     main.cpp \
     mainWindow/mainwindow.cpp \
@@ -16,6 +17,7 @@ SOURCES += \
     task/task.cpp
 
 HEADERS += \
+    Mutex/mutex.h \
     Semaphore/semaphore.h \
     mainWindow/mainwindow.h \
     scheduler/scheduler.h \
